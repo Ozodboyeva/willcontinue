@@ -1,0 +1,1 @@
+.accordion1 .accordion-button::after{background-image:url("../../images/plus.svg");transform:scale(1.5)}.accordion1 .accordion-button:not(.collapsed)::after{background-image:url("../../images/plus.svg");transform:rotate(45deg) scale(1.5)}

@@ -1,0 +1,20 @@
+.carousel1 .carousel-control-prev, .carousel1 .carousel-control-next {
+  bottom: auto;
+  padding: 15px;
+  background-color: red;
+}
+.carousel1 .carousel-control-prev {
+  left: auto;
+  right: 15%;
+}
+.carousel1 .carousel-indicators [data-bs-target] {
+  background-color: red;
+  height: 10px;
+  width: 50px;
+  border-radius: 10px;
+  border: 0;
+  transition: all 0.6s ease;
+}
+.carousel1 .carousel-indicators .active {
+  width: 70px;
+}

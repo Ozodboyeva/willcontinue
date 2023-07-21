@@ -1,0 +1,24 @@
+.tabs-1 {
+  .nav-pills {
+    display: flex;
+    justify-content: center;
+  }
+  .nav-link {
+    color: red;
+    &.active {
+      background-color: red;
+      color: white;
+    }
+  }
+}
+
+.ap-tab-list {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.ap-tab-link.active-tab {
+  color: red;
+}
